@@ -1,0 +1,7 @@
+x = float(input("Enter your integer number here : "))
+if x%2 == 0:
+	print("{} is even number.", x)
+elif x%2 == 1:
+	print("{} is odd number.",x)
+else:
+	print("{} is not even or odd number.",x)
